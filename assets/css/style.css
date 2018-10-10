@@ -1,0 +1,233 @@
+ body{
+     margin:0px;
+     padding:0px;
+    
+ }
+ .heroSection{
+     width:100%;
+     height: auto;
+     margin:0 auto;
+     text-align: center;
+     background-image: url("../img/rose.png")  ; 
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat;
+     color: white;
+     background-size: cover;
+ }
+.container{
+    width: 1024px;
+    height: auto;
+    /*background:#fcffff;*/
+    text-align: center;
+    margin: auto;
+}
+ .logo{
+     width: 30%;
+     float:left;
+     height: auto;
+ }
+ nav{
+     /*margin-bottom: 70px;*/
+     height: 70px;
+     background: #ffff;
+ }
+ .rightMenu{
+     float: right;
+     width:50%;
+     height: auto;
+     text-align: center;
+ }
+ .rightMenu ul{
+     list-style-type: none;
+ }
+ .rightMenu ul li{
+     display: inline-block;
+     margin-left:20px;
+ }
+ .rightMenu ul li a{
+     text-decoration: none;
+     color:#c9caca;
+     font-size: 15px;
+     font-weight: bold;   
+ }
+ .rightMenu ul li:first-child a{
+     margin-left:0px;
+ }
+ .rightMenu ul li a:hover{
+     text-decoration: underline;
+ }
+.rightMenu button{
+    background: #de6d6e;
+    color: #ffffff;
+    width:88px;
+    height: 25px;
+    border-radius: 5px;
+}
+.img{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+.bottomCenter{
+    /*text-align: center;*/
+    /*position: absolute;*/
+    /*left: 50%;*/ 
+    padding-top: 330px;
+    box-sizing: border-box;
+}
+.bottomCenter h1{
+    /*font-family:  "Alte Haas Grotesk";*/
+    font-size: 40px;
+}
+ .clear{
+     clear: both;
+}
+ .featuresSection{
+     background:#ffffff;
+     width: 100%;
+     height: auto;
+     padding-top:70px;
+     box-sizing: border-box;
+ }
+.description{
+    font-family: "Universal light";  
+    text-align: center;
+    color: #545454;
+}
+ .titleDesc{
+     font-size:20px;
+     color: #313841;
+     text-align: center;
+     margin-bottom:150px;
+ }
+ .row{
+     width: 100%;
+     height: auto;
+     margin-bottom: 85px;
+ }
+ /*.row:last-child{
+     margin-bottom: 0px;
+ }
+*/
+ .grid{
+     float: left;
+     height: 185px;
+     width:185px;
+     border-radius: 50%;
+     margin-left: 70px;
+     text-align: center;
+     font-size: 50px;
+     color: #ffffff;
+     line-height: 185px;
+ }
+.gridIcon{
+   display: inline-block;
+ }
+.gridIcon p{
+    line-height: 15px;
+}
+.gridIconBlue{
+    background: #4eb9f4;
+    text-align: center;
+}
+.gridIconGreen{
+    background: #6fc125;
+    text-align: center;
+}
+.gridIconRed p{
+    font-size: 15px;
+}
+.gridIconRed{
+    background:#ff5649;
+    text-align: center;
+}
+.gridIconOrange{
+    background:#e48f23;
+}
+.picAndDesc{
+    width: 100%;
+    height: auto;
+    margin-bottom: 70px
+}
+.leftSide{
+    float: left;
+    width: 200px;
+    height:130px;
+    background: blue;
+}
+.smallImg{
+    width: 100%;
+    height:100%;
+}
+.rightSide{
+    float: left;
+    width: calc(100% - 200px);
+    height:130px; 
+    text-align: left;
+    padding-left: 21px;
+    box-sizing: border-box;
+}
+.rightSide h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.footer{
+     background: #2d252c;
+     /*padding: 90px 0px;*/
+ }
+ .social{
+     width: 100%;
+     height: auto;
+     /*margin:50px 0px;*/
+     text-align: center
+ }
+ .social a{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    color: #252825;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    line-height: 35px;
+    font-size: 28px;
+    margin-right: 15px;
+    margin-top: 20px;
+    background: #696b6a;
+ }
+ .social a:hover{
+    background: white;
+    transition-duration: 0.4s;
+ }
+ .social a:last-child{
+     margin-right:0px;
+ }
+ .footerList{
+     width: 100%;
+     height: auto;
+     margin-top:80px;
+ }
+ .footerList .footerGrid{
+     width: 20%;
+     float: left;
+     color: #696b69;
+     font-size: 16px;
+ }
+ /*.footerList .footerGrid p{
+     line-height: 24px;
+ }*/
+ .footerList .footerGrid ul li{
+     list-style-type: none;
+     margin-bottom: 5px;
+ }
+ .footerList .footerGrid ul li a{
+     color: #929392;
+     text-decoration: none;
+     transition-duration: 0.4s;
+ }
+ .footerList .footerGrid ul li a:hover{
+     color: white;
+     transition-duration: 0.4s;
+ }
